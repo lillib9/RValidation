@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Rvalidate.js" defer></script>
+</head>
+<body>
+    <H1 align="center">REGISTRATION  FORM</H1>
+
+    <table align="center"border='1px'>
+        <tr>
+            <td><label >Name</label></td>
+            <td><input type="text" id="nameid" placeholder="username"></td>
+        </tr>
+        <tr>
+            <td><label >Password</label></td>
+            <td><input type="password" id="passid" placeholder="password"></td>
+        </tr>
+        <tr>
+            <td><label >Email</label></td>
+            <td><input type="email" id="mailid" placeholder="email"></td>
+        </tr>
+        <tr>
+            <td><label >PhoneNumber</label></td>
+            <td><input type="number" id="numberid" placeholder=""></td>
+        </tr>
+        <tr>
+            <td><label for="">Languages Knowm</label></td>
+            <td><select name="language" id="languageid">
+                <option value="Language">Language</option>
+                <option value="Telugu">Telugu</option>
+                <option value="Hindi">Hindi</option>
+                <option value="English">English</option>
+                <option value="Others">Others</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td ><input type="button" value="LOGIN" id="button" onclick="formvalidation()"></td>
+        </tr>
+    </table>
